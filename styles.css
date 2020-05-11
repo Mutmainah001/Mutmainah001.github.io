@@ -1,0 +1,98 @@
+
+@font-face {
+  font-family: Merriweather;
+  src: url(Merriweather-black.ttf);
+}
+@font-face{
+	font-family: Sacramento;
+	src:url(Sacramento.ttf);
+}
+@font-face{
+	font-family: Montserrat;
+	src:url(Montserrat-Regular.ttf);
+}
+
+
+body{
+	margin: 0;
+	text-align: center;
+	font-family:'Merriweather',serif;
+	background-color:#EAF6F6; 
+} 
+.para{
+	color:#66BFBF;
+	font-size: 20px;
+	line-height: 2;
+}
+.top-container{
+	margin-bottom:auto;
+	line-height: 2;
+}
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+h1{
+	color: #66BFBF;
+	margin-top:0;
+	font-family:'Sacramento';
+	font-size:50px;
+	margin: 50px auto 0px auto;
+}
+h2{
+	color: #66BFBF;
+	font-family:'Merriweather-Light';
+	font-size: 30px;
+	font-weight: 100;
+}
+h3{
+	color: #11999E;
+	font-family:'montserrat'sans-serif;
+}
+.pro{
+	text-decoration: underline;
+}
+
+.scrabble{
+	width:30%;
+	margin-right: 30px;
+	float:left;
+}
+.webdesign{
+	width: 30%;
+	margin-left: 30px;
+	float: right;
+}
+.btn{
+	background-color: #66BFBF;
+	font-weight: 200;
+	width:40%;
+	margin: 100 auto;
+	text-decoration: none;
+}
+.para{
+	width: 30%;
+	margin: auto;
+}
+hr{
+	border: dotted #EAF6F6 6px;
+	border-bottom:none;
+	width:4%;
+	margin: 100 auto;
+}
+ 
+.footer-link{
+	background-color:#EAF6F6;
+	font-family: Montserrat-Regular.ttf;
+	margin: 20px 10px;
+	text-decoration: none;
+}
+a:hover{
+	color:#EAF6F6;
+}
+.copyriht{
+	font-size: 0.75rem;
+	padding: 20px 0;
+}
